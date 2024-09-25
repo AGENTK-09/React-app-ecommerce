@@ -1,0 +1,64 @@
+/* Styling for the home container */
+.Home {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Styling for the home title */
+  .hometitle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hometitle h1 {
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the product card container */
+  .Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Styling for individual product cards */
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling for the product description */
+  .description {
+    padding: 15px;
+  }
+  
+  .description h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Styling for the product image */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
